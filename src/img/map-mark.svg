@@ -1,0 +1,54 @@
+<svg width="27" height="37" viewBox="0 0 27 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>map-mark</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1523 -816)">
+<g id="map-mark">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 1532.07 848.462L 1534.64 848.462L 1534.64 849.75L 1532.07 849.75L 1532.07 848.462Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Pin" clip-path="url(#clip-0)">
+</g>
+<g id="Oval 923" filter="url(#filter0_f)">
+<use xlink:href="#path0_fill" transform="translate(1532.07 848.462)"/>
+</g>
+<g id="Rectangle 1975">
+<use xlink:href="#path1_fill" transform="translate(1532.07 832.356)" fill="#B3BCB9"/>
+</g>
+<g id="Oval 923" opacity="0.3" filter="url(#filter1_f)">
+<use xlink:href="#path2_fill" transform="translate(1536.58 834.933)"/>
+</g>
+<g id="Oval 921">
+<use xlink:href="#path3_fill" transform="translate(1523.77 816.575)" fill="#1C5394"/>
+</g>
+<g id="Oval 922">
+<use xlink:href="#path4_fill" transform="translate(1527.22 820.172)" fill="#FFFFFF"/>
+</g>
+<g id="Shape" filter="url(#filter2_f)">
+<use xlink:href="#path5_fill" transform="translate(1533.39 837.683)" fill="#000000" fill-opacity="0.2"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" filterUnits="userSpaceOnUse" x="1529" y="845" width="9" height="8" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.35914" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter1_f" filterUnits="userSpaceOnUse" x="1531" y="829" width="19" height="16" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.71828" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="filter2_f" filterUnits="userSpaceOnUse" x="1530" y="834" width="13" height="18" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.35914" result="effect1_foregroundBlur"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.28846 1.28846C 2.00006 1.28846 2.57692 1.00003 2.57692 0.644231C 2.57692 0.288432 2.00006 0 1.28846 0C 0.576864 0 0 0.288432 0 0.644231C 0 1.00003 0.576864 1.28846 1.28846 1.28846Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0.966346C 0 0.432648 0.432648 0 0.966346 0C 1.50004 0 1.93269 0.432648 1.93269 0.966346L 1.93269 15.7837C 1.93269 16.3174 1.50004 16.75 0.966346 16.75C 0.432648 16.75 0 16.3174 0 15.7837L 0 0.966346Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 3.86538 4.29487C 6.00018 4.29487 7.73077 3.33343 7.73077 2.14744C 7.73077 0.96144 6.00018 0 3.86538 0C 1.73059 0 0 0.96144 0 2.14744C 0 3.33343 1.73059 4.29487 3.86538 4.29487Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 9.01923 18.0385C 14.0004 18.0385 18.0385 14.0004 18.0385 9.01923C 18.0385 4.03805 14.0004 0 9.01923 0C 4.03805 0 0 4.03805 0 9.01923C 0 14.0004 4.03805 18.0385 9.01923 18.0385Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 2.42493 4.87115C 3.76418 4.87115 4.84985 3.7807 4.84985 2.43557C 4.84985 1.09044 3.76418 0 2.42493 0C 1.08568 0 0 1.09044 0 2.43557C 0 3.7807 1.08568 4.87115 2.42493 4.87115Z"/>
+<path id="path5_fill" d="M 5.63702 0L 0 10.7909L 0.571013 11.0892L 6.20803 0.29829L 5.63702 0Z"/>
+</defs>
+</svg>

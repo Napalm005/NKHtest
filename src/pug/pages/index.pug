@@ -1,0 +1,17 @@
+extends ../layout/main
+
+block title
+	| Главная страница
+
+block content
+	main.main
+		.main-page
+			section.main-page__static
+				h1 Hello!!!
+
+			section.main-page__dinamic
+				.main-page__dinamic-content
+					.main-page__dinamic-item
+					.main-page__dinamic-item
+					.main-page__dinamic-item.main-page__dinamic-item--full
+				include ../modules/footer

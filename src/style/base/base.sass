@@ -1,0 +1,83 @@
+/*
+   Base selector
+ */
+
+html
+    font-family: sans-serif
+    min-height: 100%
+    font-size: $font-size
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    overflow-x: hidden
+    &.no-scroll
+        height: 100vh
+        overflow: hidden
+
+
+body
+    +font
+    &.no-scroll
+        height: 100vh
+        overflow: hidden
+
+html
+    box-sizing: border-box
+
+*,
+*:before,
+*:after
+    box-sizing: inherit
+
+body
+    color: $base
+    font-weight: 400
+    position: relative
+    overflow: hidden
+    @media screen and (max-width: 767px)
+        background-color: blue
+
+.main
+    box-sizing: border-box
+    position: relative
+    min-height: 100vh
+    padding-left: 7.15vw
+
+.inner
+    max-width: 1280px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    padding-left: 25px
+    padding-right: 25px
+    box-sizing: border-box
+    position: relative
+
+
+/* Global style */
+
+a
+    text-decoration: none
+
+button
+    cursor: pointer
+    margin: 0
+    padding: 0
+    border-width: 0
+    background-color: transparent
+
+input,
+textarea,
+select,
+button
+    -webkit-appearance: none
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4
+    margin: 0
+
+img
+    display: block
