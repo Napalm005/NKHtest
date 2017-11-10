@@ -90,9 +90,7 @@ gulp.task('clean', function (cb) {
 
 gulp.task('html:build', function buildHTML() {
 	return gulp.src(path.src.html)
-	.pipe(pug({
-		pretty: '	'
-	}))
+	.pipe(pug())
 	.pipe(gulp.dest(path.build.html))
 	.pipe(reload({stream: true}));
 });

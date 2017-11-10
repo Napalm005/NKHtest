@@ -54,6 +54,8 @@
         line-height: 3.8vw
         height: 3.8vw
         cursor: pointer
+        z-index: 20
+        transition: 0.2s transform
         .button__arrow
             background-color: #fff
             height: 3.8vw
@@ -67,6 +69,8 @@
                 width: 1vw
                 left: 0.3vw
                 border-color: $blue
+        &:active
+            transform: scale(0.9)
     &--item
         right: 0;
         left: 0

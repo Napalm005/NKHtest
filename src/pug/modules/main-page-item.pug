@@ -1,0 +1,22 @@
+mixin dinamicItem(classMod)
+	article(class="main-page__dinamic-item  " + classMod + "")
+		img(class="main-page__dinamic-item-bg" src="img/main-page/item-bg.jpg" alt="alt")
+		.main-page__dinamic-item-bottom
+			h3.main-page__dinamic-item-title Телевизионные каналы в цифровом качестве на основе технологии IP (IPTV)
+			a.button.button--slide.button--item
+				span.button__arrow
+			time(class="main-page__dinamic-item-time" datetime="2016-01-28")
+				|28 ЯНВАРЯ 2016
+		a(href="new.html" class="main-page__dinamic-item-link-wrap")
+
+
+mixin dinamicItemFill(classMod)
+	article(class="main-page__dinamic-item  " + classMod + "  main-page__dinamic-item--fill")
+		time(class="main-page__dinamic-item-time" datetime="2016-01-28")
+			|11 февраля 2016 в 4:34
+		h3.main-page__dinamic-item-title Произошла авария с обрывом линий сетей интренет на пересечении улиц Грозненская и Тотурбиева…
+		a(href="#" class="main-page__dinamic-item-social")
+			+icon('vk','main-page__dinamic-item-icon  main-page__dinamic-item-icon--vk','','')
+		button.button ПОДПИСАТЬСЯ
+			span.button__arrow
+		a(href="new.html" class="main-page__dinamic-item-link-wrap")

@@ -23,16 +23,27 @@
         font-size: 1.2vw
         text-align: center
         letter-spacing: -0.5px
+        transition: 0.3s background-color
         &--home
             min-height: 5.45vw
             background-color: #37B1A8
             + li
                 display: none
+            &:hover
+                background-color: lighten(#37B1A8, 10%)
+                + .nav__item
+                    .sub-menu
+                        border-color: lighten(#37B1A8, 10%)
         &--business
             min-height: 7.15vw
             background-color: $blue
             + li
                 display: none
+            &:hover
+                background-color: lighten($blue, 10%)
+                + .nav__item
+                    .sub-menu
+                        border-color: lighten($blue, 10%)
 
     &__link
         display: block
