@@ -1,0 +1,10 @@
+nav.menu
+	-var menuList ={'О компании': 'about.html', 'Техподдержка': 'support.html','Подключиться': 'connect.html'};
+	#gamburger
+		span
+		span
+		span
+	ul.menu__list
+		each html,text in menuList
+			li.menu__item: a(class='menu__link' href= html) #{text}
+

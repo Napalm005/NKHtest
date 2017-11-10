@@ -1,0 +1,20 @@
+nav.sidebar
+	.sidebar__back Весь сайт
+	.sidebar__wrap
+		-var sidebarList1 ={'О компании': 'about.html', 'Отзывы': 'reviews.html','Вакансии': 'vacance.html','Контакты': 'contacts.html'};
+		ul.sidebar__list
+			each html,text in sidebarList1
+				li.sidebar__item: a(class='sidebar__link' href= html) #{text}
+		ul.sidebar__list
+			each html,text in sidebarList1
+				li.sidebar__item: a(class='sidebar__link' href= html) #{text}
+		ul.sidebar__list
+			each html,text in sidebarList1
+				li.sidebar__item: a(class='sidebar__link' href= html) #{text}
+		-var sidebarList2 ={'О компании': 'about.html', 'Отзывы': 'reviews.html'};
+		ul.sidebar__list
+			each html,text in sidebarList2
+				li.sidebar__item: a(class='sidebar__link' href= html) #{text}
+	.social-likes
+		div(class="vkontakte" title="Поделиться ссылкой во Вконтакте") Вконтакте
+

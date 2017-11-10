@@ -7,11 +7,45 @@ block content
 	main.main
 		.main-page
 			section.main-page__static
-				h1 Hello!!!
+				include ../modules/menu
+				.main-page__static-content
+					h2.main-page__static-title
+						|Безлимитный интернет
+						strong.main-page__static-strong DN-650 за 500 руб/мес
+					p.main-page__static-text Скорость входящего/исходящего канала, Кбит/с днем 14000, ночью 20000
+					button.button ПОДКЛЮЧИТЬСЯ
+						span.button__arrow
+				img(class="main-page__static-bg" src="img/main-page/static-bg.jpg" alt="alt")
 
 			section.main-page__dinamic
-				.main-page__dinamic-content
-					.main-page__dinamic-item
-					.main-page__dinamic-item
-					.main-page__dinamic-item.main-page__dinamic-item--full
+				.main-page__dinamic-content.slide-1
+
+					.main-page__slide.main-page__slide--1
+						article.main-page__dinamic-item.main-page__dinamic-item--1
+							img(class="main-page__dinamic-item-bg" src="img/main-page/item-bg.jpg" alt="alt")
+							.main-page__dinamic-item-bottom
+								h3.main-page__dinamic-item-title Телевизионные каналы в цифровом качестве на основе технологии IP (IPTV)
+								buttom.button.button--slide.button--item
+									span.button__arrow
+								time(class="main-page__dinamic-item-time" datetime="2016-01-28")
+									|28 ЯНВАРЯ 2016
+							a(href="new.html" class="main-page__dinamic-item-link-wrap")
+						.main-page__dinamic-item.main-page__dinamic-item--1
+						.main-page__dinamic-item.main-page__dinamic-item--full.main-page__dinamic-item--1
+
+					.main-page__slide.main-page__slide--2
+						.main-page__dinamic-item.main-page__dinamic-item--2
+						.main-page__dinamic-item.main-page__dinamic-item--2
+						.main-page__dinamic-item.main-page__dinamic-item--2
+						article.main-page__dinamic-item.main-page__dinamic-item--2
+							img(class="main-page__dinamic-item-bg" src="img/main-page/item-bg.jpg" alt="alt")
+							.main-page__dinamic-item-bottom
+								h3.main-page__dinamic-item-title Телевизионные каналы в цифровом качестве на основе технологии IP (IPTV)
+								buttom.button.button--slide.button--item
+									span.button__arrow
+								time(class="main-page__dinamic-item-time" datetime="2016-01-28")
+									|28 ЯНВАРЯ 2016
+							a(href="new.html" class="main-page__dinamic-item-link-wrap")
+					buttom.button.button--slide
+						span.button__arrow
 				include ../modules/footer
